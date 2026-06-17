@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
+    <title>Projects - Siyumi Dias Portfolio</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
@@ -15,10 +16,10 @@
         <h1>Portfolio</h1>
         <nav class="main-nav">
             <ul>
-                <li><a href="home.html" class="nav-link">Home</a></li>
-                <li><a href="about.html" class="nav-link">About</a></li>
-                <li><a href="blog.html" class="nav-link active">Blog</a></li>
-                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -28,61 +29,97 @@
         <!-- Main Content -->
         <main id="main-content">
             <section id="blog">
+                <h1>My Projects</h1>
 
-                <!-- Blog Post 1 -->
+                <!-- Project 1: Luxora Rentals -->
                 <article class="blog-post">
-
-                    <h3>Senesa Child Center Website</h3>
-                    <img src="blog2.png" alt="climacast Feedback" class="blog-img">
-                    <p>The Senesa Child Center website was a meaningful project where I focused on creating a warm, child-friendly, and accessible digital experience.
-                         Using HTML5, CSS, and JavaScript, I designed and developed pages that clearly present the center’s vision, services, and activities while maintaining a soft and welcoming UI suitable for early childhood education.
-                          I paid special attention to layout, color choices, and typography to enhance usability and emotional appeal. 
-                          Through this project, I strengthened my UI/UX design skills, problem-solving abilities, and understanding of user-centered design, while translating real-world needs into an engaging and functional website.</p>                    <div class="code-box">
-                        <a href="https://github.com/Linuka1/Senesa_Child_Center"
-                            target="_blank">get code</a>
+                    <h3>Luxora Rentals</h3>
+                    <img src="luxora.png" alt="Luxora Premium Rentals Website" class="blog-img">
+                    <p>Luxora Premium Apartment Rentals website is an elegant front-end solution designed to highlight luxury properties and listings, providing prospective tenants with a premium, seamless search experience. The project is styled using highly customized, responsive CSS layouts and integrated dynamic filtering logic in JavaScript.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">UI/UX Design</span>
+                        <span class="tech-tag">Responsive Layout</span>
                     </div>
-
-                    <!-- Using the <time> element with datetime -->
-                    <p><small>Posted on: <time datetime="2025-10-31">October 28, 2025</time></small></p>
-                </article>
-<!-- Blog Post 2 -->
-                 <article class="blog-post">
-
-                    <h3>Dream Destination Website</h3>
-                    <img src="blog1.jpeg" alt="climacast Feedback" class="blog-img">
-                    <p>This interface was designed to offer users an engaging and visually clear experience for exploring travel-related information. Developed using HTML5, CSS, and Bootstrap, it includes a prominent hero section with a welcoming message and clear call-to-action buttons to encourage user interaction. The content is organized using a structured table that presents key details such as locations, cities, and the best time to visit, making the information easy to read and understand. Through this design, I improved my skills in responsive layout creation, content structuring, and user-centered UI design.</p>                    <div class="code-box">
+                    <div class="code-box">
+                        <a href="https://github.com/Siyumi004/luxora-rentals" target="_blank"><i class="fab fa-github"></i> Get Code</a>
                     </div>
-
-                    <!-- Using the <time> element with datetime -->
-                    <p><small>Posted on: <time datetime="2025-12-01">December 1, 2025</time></small></p>
+                    <p><small>Updated: <time datetime="2026-06-17">June 17, 2026</time></small></p>
                 </article>
 
-                <!-- Blog Post 3 -->
+                <!-- Project 2: Speech AI -->
                 <article class="blog-post">
-                    <h3>Data Analysis</h3>
-                    <img src="blog3.png" alt="climacast Feedback" class="blog-img">
-                    <p>This task involved analyzing survey data using RStudio to understand patterns in user responses related to preferences and satisfaction levels. I performed data cleaning, frequency calculations, and percentage analysis, followed by visualizing the results using pie charts to clearly represent distributions. Statistical techniques such as cross-tabulation and chi-square testing were applied to identify relationships between variables. Through this analysis, I strengthened my skills in data analysis, statistical reasoning, and data visualization, while learning how to present insights in a clear and interpretable manner. </p>
-                    
-                    <p><small>Posted on: <time datetime="2025-07-20">July 20, 2025</time></small></p>
+                    <h3>Speech AI - Lecture Notes Generator</h3>
+                    <img src="speech_ai_mockup.png" alt="Speech AI Lecture Notes Generator" class="blog-img">
+                    <p>A client-side utility web application that processes lecture speech transcriptions and automatically strips away spoken filler words (such as "you know", "basically", "actually", "um", "uh"), parsing sentences into a structured, clean, and concise bulleted summary checklist.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                        <span class="tech-tag">Text Processing</span>
+                        <span class="tech-tag">Web Speech API</span>
+                    </div>
+                    <div class="code-box">
+                        <a href="https://github.com/Siyumi004/speech-AI" target="_blank"><i class="fab fa-github"></i> Get Code</a>
+                    </div>
+                    <p><small>Updated: <time datetime="2026-06-17">June 17, 2026</time></small></p>
+                </article>
+
+                <!-- Project 3: Hospital Management System -->
+                <article class="blog-post">
+                    <h3>Hospital Management System</h3>
+                    <img src="hms_dashboard_mockup.png" alt="Hospital Management System" class="blog-img">
+                    <p>A comprehensive desktop administration application built to streamline operations in medical clinics and hospitals. Implements complete CRUD management for patient registry, doctor timetables, appointment scheduling, and pharmacy inventory control with low-stock alerts. Features Twilio SMS and JavaMail email APIs for automatic alerts, FlatLaf look-and-feel library, and MySQL for secure data persistence.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Java Swing</span>
+                        <span class="tech-tag">FlatLaf UI</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Twilio API</span>
+                        <span class="tech-tag">JavaMail</span>
+                        <span class="tech-tag">Maven</span>
+                    </div>
+                    <div class="code-box">
+                        <a href="https://github.com/Siyumi004/Hospital-management-system" target="_blank"><i class="fab fa-github"></i> Get Code</a>
+                    </div>
+                    <p><small>Updated: <time datetime="2026-02-26">February 26, 2026</time></small></p>
+                </article>
+
+                <!-- Project 4: ETF Travel Website -->
+                <article class="blog-post">
+                    <h3>Dream Destination Travel Explorer</h3>
+                    <img src="blog1.jpeg" alt="Dream Destination Website" class="blog-img">
+                    <p>A responsive travel catalog and booking interface built using Bootstrap to present destination profiles, BEST travel time indices, custom travel tips, and structured itineraries in tabular layouts. It features styled navigation columns, search filters, and user feedback call-to-actions.</p>
+                    <div class="tech-tags">
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">Bootstrap 5</span>
+                        <span class="tech-tag">Responsive Grid</span>
+                    </div>
+                    <div class="code-box">
+                        <a href="https://github.com/Siyumi004/ETF-bootstrap-website" target="_blank"><i class="fab fa-github"></i> Get Code</a>
+                    </div>
+                    <p><small>Updated: <time datetime="2026-02-26">February 26, 2026</time></small></p>
                 </article>
             </section>
         </main>
 
-        <!-- A. HTML5 Structure: Aside (Sidebar) -->
+        <!-- Sidebar -->
         <aside id="sidebar">
-            <h3>Social Media</h3>
+            <h3>Connect</h3>
             <ul>
-                <li><a href="mailto:siyumidias@gmail.com">Connect through Email</a></li>
-                <li><a href="https://linkedin.com/in/siyumi-dias-a96156386" target="_blank">Connect on LinkedIn</a></li>
-                <li><a href="https://github.com/Linuka1" target="_blank">See my GitHub</a></li>
+                <li><a href="mailto:siyumidias@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Email</a></li>
+                <li><a href="http://linkedin.com/in/siyumi-dias-a96156386" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/Siyumi004" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
             </ul>
         </aside>
 
     </div>
 
-    <!-- A. HTML5 Structure: Footer -->
+    <!-- Footer -->
     <footer class="site-footer">
-        <p>2025 My Portfolio. All rights reserved.</p>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
         <h3>Contact</h3>
         <p>
             <i class="fas fa-envelope"></i>
@@ -90,7 +127,7 @@
         </p>
         <p>
             <i class="fas fa-phone"></i>
-            <a href="tel:0777263790">0777263790</a>
+            <a href="tel:0713535384">0713535384</a>
         </p>
     </footer>
 </body>
